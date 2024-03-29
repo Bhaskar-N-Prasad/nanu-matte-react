@@ -1,7 +1,12 @@
-
+import Chai from "./chai.jsx"
 function App() {
-  return (
-    <h1>Bhaskar with Vite</h1>
+  return ( 
+    //fragment
+    <>
+    <Chai />
+    <h1>Hello</h1>
+    </>
+
   )
 }
 
