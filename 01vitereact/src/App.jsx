@@ -1,10 +1,11 @@
 import Chai from "./Chai.jsx"
 function App() {
-  return ( 
+  const username = "Bhaskar"
+  return (
     //fragment
     <>
     <Chai />
-    <h1>Hello</h1>
+    <h1>Hello {username}</h1>
     </>
 
   )
