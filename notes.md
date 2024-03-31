@@ -44,3 +44,57 @@ Using stable identifiers as keys ensures that React can accurately track which i
 
 
 ### Fibre
+
+React Fiber
+Make sure to review this information before attending any interview.
+
+ReactDOM.createRoot
+ReactDOM.createRoot creates its own DOM behind the scenes. It operates by:
+
+Comparing changes to the original DOM in the virtual DOM.
+Updating the UI.
+Utilizing React Fiber architecture.
+React Fiber Architecture
+React Fiber is the core algorithm behind React. Key features include:
+
+Pause, abort, and reuse capabilities, particular# React Fiber
+Make sure to review this information before attending any interview.
+
+ReactDOM.createRoot
+ReactDOM.createRoot creates its own DOM behind the scenes. It operates by:
+
+Comparing changes to the original DOM in the virtual DOM.
+Updating the UI.
+Utilizing React Fiber architecture.
+React Fiber Architecture
+React Fiber is the core algorithm behind React. Key features include:
+
+Pause, abort, and reuse capabilities, particularly relevant to hydration concepts.
+Reconciliation
+Reconciliation is the algorithm React uses to differentiate between two trees:
+
+React tree
+Browser tree
+This process is often referred to as the “virtual DOM.”
+
+Key considerations during reconciliation include using stable, predictable, and unique keys for lists to optimize performance.
+
+Push vs. Pull Approach
+React utilizes both push and pull-based approaches:
+
+Push-based approach: Data changes are pushed to components, triggering updates.
+Pull-based approach: Components request updates based on data changes. ly relevant to hydration concepts.
+Reconciliation
+Reconciliation is the algorithm React uses to differentiate between two trees:
+
+React tree
+Browser tree
+This process is often referred to as the “virtual DOM.”
+
+Key considerations during reconciliation include using stable, predictable, and unique keys for lists to optimize performance.
+
+Push vs. Pull Approach
+React utilizes both push and pull-based approaches:
+
+Push-based approach: Data changes are pushed to components, triggering updates.
+Pull-based approach: Components request updates based on data changes.
