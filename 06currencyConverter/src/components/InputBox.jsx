@@ -10,7 +10,6 @@ function InputBox({
     amountDisable = false,
     currencyDisable = false,
     className = "",
-    currencySelected = "usd"
 }) {
    const amountInputId = useId()
    const [selectedCurrency, setSelectedCurrency] = useState(selectCurrency)
